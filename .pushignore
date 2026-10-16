@@ -1,0 +1,9 @@
+# 本机推送排除清单（ghpush.py 的 .pushignore，不是 .gitignore）
+# 测试产物与探测缓存不上传公开仓库
+projects/
+_probe/
+_test_novel.txt
+__pycache__/
+*.pyc
+*.log
+*.db
